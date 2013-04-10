@@ -978,10 +978,10 @@ containing a value of this type.
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
         public static final int tabMode=0x7f040003;
-        public static final int textView1=0x7f040033;
         public static final int textView2=0x7f040034;
         public static final int textView3=0x7f040035;
         public static final int useLogo=0x7f040004;
+        public static final int webview=0x7f040033;
         public static final int wrap_content=0x7f040000;
     }
     public static final class integer {
