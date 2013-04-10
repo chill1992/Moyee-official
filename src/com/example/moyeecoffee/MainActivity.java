@@ -19,12 +19,15 @@ public class MainActivity extends SherlockFragmentActivity {
 		ActionBar.Tab tab1 = bar.newTab();
 		ActionBar.Tab tab2 = bar.newTab();
 		ActionBar.Tab tab3 = bar.newTab();
-		tab1.setText("Locaties");
-		tab2.setText("Bestellingen");
-		tab3.setText("Koffies");
+		tab1.setText("  Winkels");
+		tab2.setText("  Bestellen");
+		tab3.setText("  Koffies");
 		tab1.setTabListener(new MyTabListener());
 		tab2.setTabListener(new MyTabListener());
 		tab3.setTabListener(new MyTabListener());
+		tab1.setIcon(R.drawable.mug);
+		tab2.setIcon(R.drawable.dollar);
+		tab3.setIcon(R.drawable.bean);
 		bar.addTab(tab1);
 		bar.addTab(tab2);
 		bar.addTab(tab3);
