@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,15 +13,15 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class FragmentA extends Fragment 
+public class FragmentA extends Fragment
 {
 	private ArrayList<PointOfSale> pointsOfSale;
 	private WebView browser;
 	private View mContentView;
 
-@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup group, Bundle saved)
+public View onCreateView(LayoutInflater inflater, ViewGroup group, Bundle saved)
 	{
+		super.onCreate(saved);
 		mContentView = inflater.inflate(R.layout.frag_a, group, false);
 	    browser = (WebView)mContentView.findViewById(R.id.webview);
 		pointsOfSale = new ArrayList<PointOfSale>();
@@ -66,11 +67,12 @@ public class FragmentA extends Fragment
 	    
 		return mContentView;
 	}
-
+/*
 @Override
 	public void onActivityCreated (Bundle savedInstanceState)
 	{
 		super.onActivityCreated(savedInstanceState);
 		
 	}
+*/
 }

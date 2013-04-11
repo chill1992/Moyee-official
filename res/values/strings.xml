@@ -4,7 +4,7 @@
     <string name="app_name">Moyee Coffee</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="nieuwe_klant">nieuwe klant</string>
-    <string name="herhaal_bestelling">herhaal bestelling</string>
+    <string name="nieuwe_klant">U bent een nieuwe klant</string>
+    <string name="herhaal_bestelling">U wilt een herhaalbestelling doen</string>
 
 </resources>
