@@ -8,8 +8,16 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="Insert Bestelpage here"
          />
+=======
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:onClick="naarInvoerScherm"
+        android:text="@string/herhaal_bestelling" />
+>>>>>>> parent of ac51377... commit van jonathan
 
     
 
