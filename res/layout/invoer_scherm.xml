@@ -95,7 +95,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:onClick="naarBevestigBestellingScherm"
-        android:text="Bestel!" />
+        android:onClick="bestel"
+        android:text="@string/herhaal_bestelling" />
 
+    <Button
+        android:id="@+id/nieuwe_klant_knop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="naarWebShop"
+        android:text="@string/nieuwe_klant" />
 </LinearLayout>
