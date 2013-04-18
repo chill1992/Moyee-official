@@ -1,52 +1,23 @@
 package com.example.moyeecoffee;
 
-import com.example.moyeecoffee.R;
+import java.util.ArrayList;
 
-<<<<<<< HEAD
-=======
-import com.example.moyeecoffee.R;
-
-import android.net.Uri;
->>>>>>> parent of ac51377... commit van jonathan
-import android.os.Bundle;
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
+import android.net.Uri;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
-<<<<<<< HEAD
-=======
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.ViewPager.LayoutParams;
->>>>>>> parent of ac51377... commit van jonathan
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
-<<<<<<< HEAD
-
-public class FragmentB extends Fragment 
-{
-	Button button;
-	
-@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup group, Bundle saved)
-	{	
-		return inflater.inflate(R.layout.frag_b, group, false);
-	}
-
-@Override
-	public void onActivityCreated (Bundle savedInstanceState)
-	{
-		super.onActivityCreated(savedInstanceState);
-		
-	}
-=======
-import android.widget.LinearLayout;
+import android.widget.EditText;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
-import android.widget.EditText;
+
+import com.actionbarsherlock.view.Menu;
 
 public class FragmentB extends Fragment {
 	private Preferences preferences;
@@ -195,7 +166,7 @@ public class FragmentB extends Fragment {
 			});
 			
 			TextView knopKoffie = new TextView(getActivity());
-			knopKoffie.setText(koffieLijst.get(i).getNaam() + "   prijs: €" + koffieLijst.get(i).getPrijs());
+			knopKoffie.setText(koffieLijst.get(i).getNaam() + "   prijs: " + koffieLijst.get(i).getPrijs());
 			knopKoffie.setFocusable(false);
 			params.weight = 0.5f;
 			params.leftMargin = 0;
@@ -309,5 +280,4 @@ public class FragmentB extends Fragment {
 		
 		return;
 	}
->>>>>>> parent of ac51377... commit van jonathan
 }

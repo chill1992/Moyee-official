@@ -928,6 +928,8 @@ containing a value of this type.
         public static final int ic_launcher=0x7f02006f;
     }
     public static final class id {
+        public static final int TextView1=0x7f040045;
+        public static final int TextView2=0x7f040048;
         public static final int abs__action_bar=0x7f040022;
         public static final int abs__action_bar_container=0x7f040021;
         public static final int abs__action_bar_subtitle=0x7f040011;
@@ -968,20 +970,42 @@ containing a value of this type.
         public static final int abs__title=0x7f04001b;
         public static final int abs__titleDivider=0x7f04001c;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f040036;
+        public static final int action_settings=0x7f04004e;
+        public static final int annuleer_bestelling_knop=0x7f04003f;
+        public static final int bestel_knop=0x7f04004b;
+        public static final int bevestig_bestelling_knop=0x7f04003e;
+        public static final int btnCreateProduct=0x7f040039;
+        public static final int btnDelete=0x7f040041;
+        public static final int btnSave=0x7f040040;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f040027;
+        public static final int emailedittext=0x7f040049;
+        public static final int herhaal_bestelling_knop=0x7f040034;
         public static final int homeAsUp=0x7f040006;
+        public static final int inputDesc=0x7f040038;
+        public static final int inputName=0x7f040036;
+        public static final int inputPrice=0x7f040037;
+        public static final int kleurGroep=0x7f04003d;
         public static final int listMode=0x7f040002;
+        public static final int naamedittext=0x7f040046;
+        public static final int name=0x7f04004d;
+        public static final int nieuwe_klant_knop=0x7f040035;
         public static final int normal=0x7f040001;
+        public static final int optielayout=0x7f04003a;
+        public static final int pid=0x7f04004c;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
         public static final int tabMode=0x7f040003;
-        public static final int textView2=0x7f040034;
-        public static final int textView3=0x7f040035;
+        public static final int table=0x7f040043;
+        public static final int tableRow1=0x7f040044;
+        public static final int tableRow2=0x7f040047;
+        public static final int tableRow3=0x7f04003c;
+        public static final int tableRow4=0x7f04004a;
+        public static final int textView2=0x7f040033;
+        public static final int textView3=0x7f04003b;
         public static final int useLogo=0x7f040004;
-        public static final int webview=0x7f040033;
+        public static final int webview=0x7f040042;
         public static final int wrap_content=0x7f040000;
     }
     public static final class integer {
@@ -1012,11 +1036,17 @@ containing a value of this type.
         public static final int abs__search_view=0x7f030015;
         public static final int abs__simple_dropdown_hint=0x7f030016;
         public static final int activity_main=0x7f030017;
-        public static final int frag_a=0x7f030018;
-        public static final int frag_b=0x7f030019;
-        public static final int frag_c=0x7f03001a;
-        public static final int sherlock_spinner_dropdown_item=0x7f03001b;
-        public static final int sherlock_spinner_item=0x7f03001c;
+        public static final int add_product=0x7f030018;
+        public static final int all_products=0x7f030019;
+        public static final int bevestig_bestelling_scherm=0x7f03001a;
+        public static final int edit_product=0x7f03001b;
+        public static final int frag_a=0x7f03001c;
+        public static final int frag_b=0x7f03001d;
+        public static final int frag_c=0x7f03001e;
+        public static final int invoer_scherm=0x7f03001f;
+        public static final int list_item=0x7f030020;
+        public static final int sherlock_spinner_dropdown_item=0x7f030021;
+        public static final int sherlock_spinner_item=0x7f030022;
     }
     public static final class menu {
         public static final int main=0x7f0b0000;
@@ -1070,6 +1100,8 @@ containing a value of this type.
         public static final int action_settings=0x7f090010;
         public static final int app_name=0x7f09000f;
         public static final int hello_world=0x7f090011;
+        public static final int herhaal_bestelling=0x7f090012;
+        public static final int nieuwe_klant=0x7f090013;
     }
     public static final class style {
         /** 
