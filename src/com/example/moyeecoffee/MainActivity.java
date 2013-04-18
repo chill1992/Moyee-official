@@ -8,6 +8,7 @@ import com.actionbarsherlock.app.ActionBar.Tab;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 
 public class MainActivity extends SherlockFragmentActivity {
+	
 
 /** Called when the activity is first created. */
 @Override

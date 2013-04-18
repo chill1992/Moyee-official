@@ -7,6 +7,7 @@
     <uses-sdk
         android:minSdkVersion="7"
         android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -20,6 +21,35 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+                <activity
+			android:name=".AllProductsActivity"
+            android:label="All Products" >
+        </activity>
+
+        <!-- Add Product Activity -->
+        <activity
+            android:name=".NewProductActivity"
+            android:label="Add New Product" >
+        </activity>
+
+        <!-- Edit Product Activity -->
+        <activity
+            android:name=".EditProductActivity"
+            android:label="Edit Product" >
+            <intent-filter>
+                
+                
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!--  KoopKoffieMainActivity -->
+        <activity
+            android:name=".KoopKoffieMainActivity"
+            android:label="Add Koopfunctie activity" >
         </activity>
     </application>
 

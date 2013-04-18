@@ -8,9 +8,31 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
+     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="Insert Bestelpage here"
+         />
+    
+        <Button
+        android:id="@+id/herhaal_bestelling_knop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:onClick="naarInvoerScherm"
+        android:text="@string/herhaal_bestelling" />
+
+    <Button
+        android:id="@+id/nieuwe_klant_knop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/herhaal_bestelling_knop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="naarWebShop"
+        android:text="@string/nieuwe_klant" />
 
 </RelativeLayout>
