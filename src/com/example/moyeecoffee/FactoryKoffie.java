@@ -12,8 +12,8 @@ public class FactoryKoffie {
 		koffieLijst = new ArrayList<Koffie>();
 		
 		//voeg koffie toe, dit moet misschien in een andere klasse staan		
-		voegKoffieToe(new Koffie("afrikaanse koffie", "5,00", null, null, null, null));
-		voegKoffieToe(new Koffie("dark roasted koffie", "1,00", null, null, null, null));
+//		voegKoffieToe(new Koffie("afrikaanse koffie", "5,00", null, null, null, null));
+//		voegKoffieToe(new Koffie("dark roasted koffie", "1,00", null, null, null, null));
 	}
 	
 	public static FactoryKoffie get()

@@ -43,7 +43,7 @@ public class FragmentA extends Fragment
 		
 		// Maak de dynamische url om mee te geven aan de webview. 
 				// Er wordt per Point of Sale een stuk een de dynamicURL toegevoegt.
-				String dynamicURL = "http://www.gijs-de-jong.nl/googlemap.html?";
+				String dynamicURL = "http://www.moyeemobile.nl/googlemap.html?";
 				boolean isEerstePointOfSale = true;
 				for(int i = 0; i < pointsOfSale.size() ; i++)
 				{
